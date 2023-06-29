@@ -1,0 +1,17 @@
+
+main{
+    display: flex;
+    gap: 15px;
+}
+
+.dialog{
+    padding: 32px;
+    width: 256px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+    border-radius: 24px;
+}
