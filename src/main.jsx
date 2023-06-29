@@ -6,14 +6,14 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Member from './page/Member.jsx'
 import About from './page/About.jsx'
 
-// import './index.css'
+import './index.css'
 
 const alamat = createBrowserRouter([
   {
     element:<App />,
     children:[
       {
-        path:"/member",
+        path:"/",
         element:<Member/>
       },
       {

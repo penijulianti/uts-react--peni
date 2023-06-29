@@ -1,14 +1,17 @@
 header {
-    display: flex;
-    gap: 16px;
-  
-    > label {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 16px;
+        height: 64px;
+        align-items: center;
+        flex-shrink: 0;
   }
-  
+  nav{
+    display: flex;
+    align-self: stretch;
+    gap: 15px
+
+  }
   table {
     border-collapse: collapse;
   

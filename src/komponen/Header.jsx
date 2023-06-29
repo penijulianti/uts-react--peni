@@ -9,7 +9,6 @@ export default function Header(){
             </Link>
 
             <nav>
-
                 <NavLink to="/member">
                     <div>Home</div>
                 </NavLink>
